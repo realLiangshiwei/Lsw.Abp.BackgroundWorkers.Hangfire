@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsw.Abp.BackgroundWorkers.Hangfire", "src\Lsw.Abp.BackgroundWorkers.Hangfire\Lsw.Abp.BackgroundWorkers.Hangfire.csproj", "{BBF385EC-8AF3-4F9C-97AB-FE8E736BAEE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B618C1B4-7AF2-4C49-A9D0-0C876DB18F97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{03A4F1F8-562E-4E35-87E5-160AE4C675F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundWorker.Hangfire.Demo.ConsoleApp", "app\BackgroundWorker.Hangfire.Demo.ConsoleApp\BackgroundWorker.Hangfire.Demo.ConsoleApp.csproj", "{8EAC2D2C-1A68-4C20-9DB9-47B2E50BBC33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBF385EC-8AF3-4F9C-97AB-FE8E736BAEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF385EC-8AF3-4F9C-97AB-FE8E736BAEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF385EC-8AF3-4F9C-97AB-FE8E736BAEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF385EC-8AF3-4F9C-97AB-FE8E736BAEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EAC2D2C-1A68-4C20-9DB9-47B2E50BBC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAC2D2C-1A68-4C20-9DB9-47B2E50BBC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAC2D2C-1A68-4C20-9DB9-47B2E50BBC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAC2D2C-1A68-4C20-9DB9-47B2E50BBC33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBF385EC-8AF3-4F9C-97AB-FE8E736BAEE3} = {B618C1B4-7AF2-4C49-A9D0-0C876DB18F97}
+		{8EAC2D2C-1A68-4C20-9DB9-47B2E50BBC33} = {03A4F1F8-562E-4E35-87E5-160AE4C675F3}
+	EndGlobalSection
+EndGlobal
