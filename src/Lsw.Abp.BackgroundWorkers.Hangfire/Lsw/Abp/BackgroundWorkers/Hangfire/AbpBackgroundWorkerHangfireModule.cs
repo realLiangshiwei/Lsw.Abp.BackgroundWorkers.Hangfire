@@ -24,6 +24,11 @@ namespace Lsw.Abp.BackgroundWorkers.Hangfire
             }
         }
 
+        public override void ConfigureServices(ServiceConfigurationContext context)
+        {
+            context.Services.AddSingleton(typeof(HangfirePeriodicBackgroundWorkerAdapter<>));
+        }
+
         private BackgroundJobServer CreateOnlyEnqueueJobServer(IServiceProvider serviceProvider)
         {
             serviceProvider.GetRequiredService<JobStorage>();
