@@ -69,7 +69,7 @@ namespace Lsw.Abp.BackgroundWorkers.Hangfire
             {
                 cron = Cron.Hourly(time.Minutes);
             }
-            else if (time.TotalHours <= 59)
+            else if (time.TotalHours <= 23)
             {
                 cron = Cron.Daily(time.Hours, time.Minutes);
             }
