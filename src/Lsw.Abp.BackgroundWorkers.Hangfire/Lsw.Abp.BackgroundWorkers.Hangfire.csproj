@@ -14,6 +14,7 @@
         <PackageTags>abp,backgroundworker,hangfire</PackageTags>
         <PackageIconUrl>https://raw.githubusercontent.com/liangshiw/Lsw.Abp.BackgroundWorkers.Hangfire/master/lswabp.png</PackageIconUrl>
         <Version>1.1.0</Version>
+        <PackageVersion>1.2.0</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
