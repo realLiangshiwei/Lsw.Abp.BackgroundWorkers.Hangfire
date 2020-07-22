@@ -2,6 +2,8 @@
 
 Abp backgroundworkes system hangfire integrated
 
+ [![NuGet](https://img.shields.io/nuget/v/Lsw.Abp.BackgroundWorkers.Hangfire)](https://www.nuget.org/packages/Lsw.Abp.BackgroundWorkers.Hangfire/) [![NuGet](https://img.shields.io/nuget/dt/Lsw.Abp.BackgroundWorkers.Hangfire)](https://www.nuget.org/packages/Lsw.Abp.BackgroundWorkers.Hangfire/)
+
 ## Getting Started
 
 ### Install
